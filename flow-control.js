@@ -33,7 +33,7 @@ return ifNeithr; }
 function ternaryTeenager(age) {
 var ifSo = "You are a teenager";
 var ifNot = "You are not a teenager";
-return age >= 13 && age <= 19 ? alert("You are a teenager") : alert("You are not teenager")
+return age >= 13 && age <= 19 ? document.write(ifSo) : document.write(ifNot)
 }
 
 function switchAge(age) {
