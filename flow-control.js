@@ -1,6 +1,5 @@
 function basicTeenager(age) {
 var ifSo = "You are a teenager!";
-var ifNot = "You are a kid";
 if (age >= 13 && age <= 19) {
 return ifSo;
 }else{
@@ -33,7 +32,6 @@ return ifNeithr; }
 function ternaryTeenager(age) {
 var ifSo = "You are a teenager";
 var ifNot = "You are not a teenager";
-undefined == "You are a teenager";
 return age >= 13 && age <= 19 ? document.write(ifSo) : document.write(ifNot)
 }
 
